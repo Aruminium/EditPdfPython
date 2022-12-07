@@ -1,12 +1,11 @@
 version: "3"
 
 services:
-  python:
-    container_name: python
+  app:
     build:
       context: ./docker
       dockerfile: Dockerfile
     restart: always
     tty: true
     volumes:
-      - ./app:/app
+      - ./app:/home/myuser/app

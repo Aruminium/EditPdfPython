@@ -6,6 +6,5 @@ b: docker-compose.yml
 
 d:
 	docker compose down
-
-c:
-	dockle pdfy-python
+e:
+	sh docker-exec.sh

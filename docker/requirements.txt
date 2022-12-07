@@ -1,2 +1,2 @@
-openpyxl
-ghostscript
+openpyxl==3.0.10
+PyPDF2==2.11.2
